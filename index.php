@@ -38,8 +38,10 @@
     ],
 
 ];
-
-var_dump( $hotels)
+    // ciclo il mio arrey
+    foreach($hotels as $hotel) {
+    var_dump($hotel);
+}
 ?>
 
 <!DOCTYPE html>
